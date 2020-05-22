@@ -26,13 +26,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.map returns a new array and .forEach does not return a new array. Both recieve a function as an argument.
+
+
 2. Explain the difference between a callback and a higher order function.
 
-3. What is closure?
+A higher order function is a function that takes another function as an argument.
+
+A callback function is a function that is passed to another function which will then use the callback function.
+
+3. What is closure? 
+When an inner function has access to the outer function's variables.
 
 4. Describe the four rules of the 'this' keyword.
 
-5. Why do we need super() in an extended class?
+Window Binding: "This" defaults to window binding, which refers to everything in Javascript.
+
+Implicit Binding: When a function is invoked "this" refers to whatever is to the left of the dot.
+
+New Binding: Using new keyword creates a new object and "this" then refers to that.
+
+Explict Binding: Forces the "this" keyword to refer to whatever is passed as an argument.
+
+5. Why do we need super() in an extended class? 
+
+super() help to bridge the child class to the parent class so that the child class has access to the properties and methods in the parent class.
 
 ### Task 1 - Project Set up
 
